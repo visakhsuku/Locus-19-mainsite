@@ -213,7 +213,7 @@
             </div>
             <div class ="col-lg-6 venue-info"><div class="row justify-content-center">
               <div class="col-11 col-lg-8">
-                <h3>National Institute of Technology, Caicut</h3>
+                <h3>National Institute of Technology, Calicut</h3>
                 <p></p>
               </div>
             </div></div>
