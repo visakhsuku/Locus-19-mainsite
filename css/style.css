@@ -299,17 +299,21 @@ h6 {
   visibility: visible;
   width: 100%;
 }
-
+.center-block {
+   margin-left:auto;
+   margin-right:auto;
+   display:block;
+}
 .buy-now{
    color: #fff;
+    text-align: center;
   background: #f82249;
   padding: 12px 22px;
   border-radius: 50px;
   border: 2px solid #f82249;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
-  margin-left: 8px;
-  margin-top: 2px;
+  
   line-height: 1;
   font-size: 17px;
 }
@@ -804,6 +808,104 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #speakers-details .details p {
+  color: #112363;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+
+/*--------------------------------------------------------------
+# lectures Section
+--------------------------------------------------------------*/
+
+#lectures {
+  padding: 60px 0 30px 0;
+}
+
+#lectures .lecture {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#lectures .lecture .details1 {
+  background: rgba(6, 12, 34, 0.76);
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  right: 0;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#lectures .lecture .details1 h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#lectures .lecture .details1 p {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#lectures .lecture .details1 .social {
+  height: 30px;
+}
+
+#lectures .lecture .details1 a {
+  color: #fff;
+}
+
+#lectures .lecture .details1 a:hover {
+  color: #f82249;
+}
+
+#lectures .lecture:hover .details1 {
+  bottom: 0;
+}
+
+#speakers-details1 {
+  padding: 60px 0;
+}
+
+#speakers-details1 .details1 h2 {
+  color: #112363;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#speakers-details1 .details1 .social1 {
+  margin-bottom: 15px;
+}
+
+#speakers-details1 .details1 .social1 a {
+  background: #e9edfb;
+  color: #112363;
+  line-height: 1;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  padding-top: 9px;
+}
+
+#speakers-details1 .details1 .social1 a:hover {
+  background: #f82249;
+  color: #fff;
+}
+
+#speakers-details1 .details1 .social1 a i {
+  font-size: 18px;
+}
+
+#speakers-details1 .details1 p {
   color: #112363;
   font-size: 15px;
   margin-bottom: 10px;
