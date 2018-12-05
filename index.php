@@ -507,7 +507,7 @@
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
               <h3>Phone Number</h3>
-              <p><a href="tel:+155895548855">Jyothsna Shaji<br>9207746246</a></p>
+              <p><a href="tel:9207746246">Jyothsna Shaji<br>9207746246</a></p>
             </div>
           </div>
 
